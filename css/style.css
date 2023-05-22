@@ -1,0 +1,44 @@
+.row {
+    margin: 0;
+}
+
+
+.btn-primary {
+    background-color: rgb(86, 86, 163);
+    border-color: rgb(86, 86, 163);
+}
+
+.btn-primary:hover, .btn-outline-primary:hover {
+    background-color: rgb(55, 55, 109);
+    border-color: rgb(55, 55, 109);
+}
+
+.btn-outline-primary {
+    border-color: rgb(86, 86, 163);
+    color: rgb(86, 86, 163);
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: rgb(55, 55, 109);
+    border-color: rgb(55, 55, 109);
+}
+
+.carousel-inner, .carousel-item, .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    filter: brightness(50%);
+}
+
+.carousel-caption {
+    color: #ffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.img {
+    border-radius: 10px;
+}
